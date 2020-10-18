@@ -12,7 +12,7 @@ export const Reference = [
     {
         id:3,
         เนื้อหา: 'คามเบลท์ (รูปภาพ)',
-        รูปภาพ: 'https://static.wikia.nocookie.net/onepiece/images/6/68/Calm_Belt_Infobox.png/revision/latest/top-crop/width/360/height/450?cb=20140324111338&path-prefix=id'
+        รูปภาพ: 'https://sites.google.com/site/onepiece5801108022/_/rsrc/1460211072188/phumisastr/4-kham-belth/Calm_Belt_Infobox.png?height=242&width=320'
     },
     {
         id:4,
@@ -37,7 +37,7 @@ export const Reference = [
     {
         id:8,
         เนื้อหา: 'วันพีซ (รูปภาพ)',
-        รูปภาพ: 'https://image.dek-d.com/27/0336/3170/123314203'
+        รูปภาพ: 'https://i.imgur.com/DMuLgO6.jpg'
     },
     {
         id:9,

@@ -32,7 +32,7 @@ export default class Total_History extends Component {
 
                 <div className='label'>
                         <div className='font_ST'>รวมคำศัพท์เฉพาะในเนื้อเนื่อง </div>
-                        <img className='img_c' src='https://image.dek-d.com/27/0336/3170/123314203' width='20%' />
+                        <img className='img_c' src='https://i.imgur.com/DMuLgO6.jpg' width='20%' />
                         <div className='font_Ti'>วันพีซ</div>
                             <div className='font_S'> {วันพีซ} </div>
                         <img className='img_c' src="https://pbs.twimg.com/media/C4Ty2LTUkAAxwUz.jpg" />
@@ -50,7 +50,7 @@ export default class Total_History extends Component {
                         <img className='img_c' src="https://pingpeem.files.wordpress.com/2013/06/op8-all-blue.jpg?w=584" />
                         <div className='font_Ti'>ออลบลู</div>
                             <div className='font_S'> {ออลบลู} </div>
-                        <img className='img_c' src="https://static.wikia.nocookie.net/onepiece/images/6/68/Calm_Belt_Infobox.png/revision/latest/top-crop/width/360/height/450?cb=20140324111338&path-prefix=id" />
+                        <img className='img_c' src="https://sites.google.com/site/onepiece5801108022/_/rsrc/1460211072188/phumisastr/4-kham-belth/Calm_Belt_Infobox.png?height=242&width=320" />
                         <div className='font_Ti'>คามเบลท์</div>
                             <div className='font_S'> {คามเบลท์} </div>
                         <img className='img_c' src="https://2.bp.blogspot.com/-l1eX4I5tk5k/WLWCHz3tk1I/AAAAAAAARIU/nKNfkuTyXBcA3NAK1zS-JvKm-wuNYfStgCLcB/s400/King%2Bof%2BDevil%2BFruit%2B-%2B%25E0%25B8%25A3%25E0%25B8%25B2%25E0%25B8%258A%25E0%25B8%25B2%25E0%25B9%2581%25E0%25B8%25AB%25E0%25B9%2588%25E0%25B8%2587%25E0%25B8%259C%25E0%25B8%25A5%25E0%25B9%2584%25E0%25B8%25A1%25E0%25B9%2589%25E0%25B8%259B%25E0%25B8%25B5%25E0%25B8%25A8%25E0%25B8%25B2%25E0%25B8%2588_Pirateonepiece.Blogspot.com.jpg" />
