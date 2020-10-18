@@ -3,7 +3,10 @@
   margin: 0%;
 }
 
-.column {
+@media only screen and (min-width:480px) {
+
+  
+  .column {
     position: relative;
     /* margin-left: 3px; */
     right: 0px;
@@ -83,13 +86,13 @@
 }
 
 .detail {
-  font-size: 14px;
+  font-size: 8px;
   display: block;
   padding: 10px;
 }
 
 .number {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   display: inline-block;
 }
@@ -102,8 +105,8 @@
   /* border: 1px solid black; */
   text-align: justify;
   position: relative;
-  height: 650px;
-  width: 400px;
+  height: 600px;
+  width: 200px;
   text-align: left;
   float: left;
   overflow: scroll;
@@ -114,9 +117,9 @@
   position: absolute;
   top:0;
   left:0;
-	overflow: hidden;
-	width: 400px;
-  height: 650px;
+  overflow: hidden;
+  width: 200px;
+  height: 600px;
   
 }
 
@@ -143,14 +146,14 @@
 }
 
 .letter {
-  font: italic small-caps bold 70px/100px Georgia, Monospace;
+  font: italic small-caps bold 25px/100px Georgia, Monospace;
   text-shadow: 0 1px 0 #d4dfe0;
 }
 
 .Head{
   background-color: #84D2F6;
   border-radius:8px ;
-  font: italic small-caps bold 70px/100px Georgia, Monospace;
+  font: italic small-caps bold 25px/100px Georgia, Monospace;
   text-shadow: 0 1px 0 #79c522;
   border:2px white;
   box-shadow: 5px 5px 5px whitesmoke;
@@ -168,7 +171,7 @@
 }
 
 .his_pic {
-  width: 80%;
+  width: 30%;
   display: block;
   position: relative;
   text-align: center;
@@ -213,19 +216,19 @@
 .font_S {
   font-style: oblique;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 10px;
   text-align: justify;
   display: block;
   white-space: pre-line;
 }
 
 .font_SF {
-  font-size: 20px;
+  font-size: 13px;
   display: inline-block;
 }
 
 .font_ST {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   position: relative;
   font-family: "Lucida Console", Courier, monospace;
@@ -244,7 +247,7 @@
 }
 
 .font_Ti {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   font-style: normal;
   font-weight: bolder;
@@ -254,7 +257,7 @@
 .img_c {
   text-align: center;
   display: inline;
-  width: 20rem;
+  width: 15rem;
   border-radius: 30px;
   padding: 1rem 1rem 1rem 1rem;
 }
@@ -262,7 +265,7 @@
 .label_H {
   position: relative;
   z-index: 1;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -286,7 +289,7 @@
 .font_TH {
   font-style: oblique;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 10px;
   /* text-align: justify; */
   overflow: scroll;
 }
@@ -309,6 +312,320 @@
   width: 20%;
   margin: auto;
 }
+
+}
+
+
+@media only screen and (min-width:1025px) {
+
+  .column {
+      position: relative;
+      /* margin-left: 3px; */
+      right: 0px;
+  }
+
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+    }
+
+
+  .footer.bg-dark
+  {
+    background-color: black;
+    opacity: 0.8;
+  }
+
+
+  #rotate {
+    animation: rotation 8s infinite linear;
+    
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .initials {
+      position: absolute;;
+      background:black;
+      color:white;
+      padding-top:12rem;
+      padding-bottom:12rem;
+      font-size:17px;
+      letter-spacing:5px;
+      box-shadow:0px 2px 3px rgba(0,0,0,.15);
+      overflow: hidden;
+      white-space: nowrap;
+      height: 100%;
+  }
+
+  .initials .text {
+      position: relative;
+      
+  }
+
+  @-webkit-keyframes test {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  .initials:before{
+    content: "";
+    background-image: url("http://static.tumblr.com/lxn1yld/Hnxnxaqya/space.gif");
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-animation-name: test; 
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;  
+  }
+
+  .detail {
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+  }
+
+  .number {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .swap-on-hover {
+    text-shadow: 0 1px 0 #127989;
+    background-color: #5c92cf;
+    display: inline-block;
+    margin: 20px 120px 50px 30px;
+    text-align: justify;
+    position: relative;
+    height: 650px;
+    width: 400px;
+    text-align: left;
+    float: left;
+    overflow: scroll;
+    opacity: 0.9;
+  }
+
+  .swap-on-hover img {
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 400px;
+    height: 650px;
+    
+  }
+
+  .swap-on-hover .swap-on-hover__front-image {
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+    overflow: scroll;
+  }
+
+  .swap-on-hover:hover > .swap-on-hover__front-image{
+    opacity: 0;
+    
+  }
+
+
+  .bgPage {
+    background-image: url("https://wallpaperset.com/w/full/3/7/3/229176.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: content;
+    overflow: hidden;
+  }
+
+  .letter {
+    font: italic small-caps bold 70px/100px Georgia, Monospace;
+    text-shadow: 0 1px 0 #d4dfe0;
+  }
+
+  .Head{
+    background-color: #84D2F6;
+    border-radius:8px ;
+    font: italic small-caps bold 70px/100px Georgia, Monospace;
+    text-shadow: 0 1px 0 #79c522;
+    border:2px white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    
+  }
+
+  .title {
+    background-color: #59A5D8;
+    border-radius: 8px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px white;
+  }
+
+  .his_pic {
+    width: 80%;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto auto 1rem auto;
+    padding-top: 1rem;
+    border-radius: 30px;
+  }
+
+  .label {
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 8px;
+    border: 1px solid blue;
+    padding:1rem 1rem 1rem 1rem;
+    
+  }
+
+  .label:before {
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    background-color: rgb(24, 155, 241); 
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  .backG {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/faf23579-2030-4db4-a8f8-15446c89e3e2/d5jfcjf-12dfedc4-295d-4bf0-b90f-b6f5cd3798bf.jpg/v1/fill/w_1024,h_577,q_75,strp/background_one_piece_by_xxhxaxx_d5jfcjf-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzciLCJwYXRoIjoiXC9mXC9mYWYyMzU3OS0yMDMwLTRkYjQtYThmOC0xNTQ0NmM4OWUzZTJcL2Q1amZjamYtMTJkZmVkYzQtMjk1ZC00YmYwLWI5MGYtYjZmNWNkMzc5OGJmLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZhzOJ6oVwXHC9IPF0fpwDDD2JFwg3uV-Rir_sR33vpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: content;
+    overflow: hidden;
+  }
+
+  .font_S {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+    display: block;
+    white-space: pre-line;
+  }
+
+  .font_SF {
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .font_ST {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+  .font_ST:after {
+    content: '';
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    width: 30%;
+    margin: auto;
+  }
+
+  .font_Ti {
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .img_c {
+    text-align: center;
+    display: inline;
+    width: 20rem;
+    border-radius: 30px;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .label_H {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    border: 1px solid rgb(164, 240, 24);
+    padding:1rem 1rem 1rem 1rem;
+  }
+
+  .label_H:before {
+    content: "";
+    position: absolute;
+    opacity: 0.8;
+    background-color: rgb(5, 110, 180); 
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .font_TH {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 17px;
+    /* text-align: justify; */
+    overflow: scroll;
+  }
+
+  .lap {
+    font-size: 50px;
+    padding-top: 1rem;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .lap:after {
+    content: '';
+    background-color: rgb(32, 29, 8);
+    position: absolute;
+    height: 2px;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    width: 20%;
+    margin: auto;
+  }
+}
+
+
 
 
 
